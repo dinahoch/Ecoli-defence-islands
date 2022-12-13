@@ -12,7 +12,6 @@ import re
 from datetime import datetime
 from ast import literal_eval
 from Bio import SeqIO, Entrez
-Entrez.email = "dina.hochhauser@weizmann.ac.il"
 
 date = datetime.now().strftime('%Y-%m-%d')
 
